@@ -1,7 +1,3 @@
-
-import "./globals.css";
-
-
 export const metadata = {
   title: "Satyam.",
   description: "A modern portfolio showcasing creative development work and skills",
@@ -10,9 +6,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className=''>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }

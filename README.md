@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Modern Portfolio Website
+
+A beautiful, responsive portfolio website built with Next.js and modern UI/UX principles. This portfolio template features smooth animations, responsive design, a clean modern aesthetic, and immersive 3D visualizations.
+
+![Portfolio Preview](./public/preview.png)
+
+## Features
+
+- 🎨 **Modern Design** - Clean, professional, and visually appealing interface
+- 📱 **Fully Responsive** - Looks great on all devices (mobile, tablet, desktop)
+- ✨ **Smooth Animations** - Engaging motion effects using Framer Motion
+- 🌙 **Dark/Light Mode** - Automatically adapts to system preferences
+- 🚀 **Performance Optimized** - Fast loading times and smooth interactions
+- 📊 **Interactive Elements** - Dynamic projects filtering, skill bars, and more
+- 📝 **Contact Form** - Ready-to-use contact form (just add your backend)
+- 🌐 **3D Visualizations** - Immersive Three.js backgrounds and interactive elements
+
+## Tech Stack
+
+- **Next.js** - React framework for production
+- **Tailwind CSS** - For styling
+- **Framer Motion** - For animations
+- **Three.js** - For 3D visualizations
+- **React Three Fiber** - React renderer for Three.js
+- **React Icons** - Icon library
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 14.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository or download the source code
+2. Navigate to the project directory
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
 
-## Learn More
+Edit the component files in `src/components/` to update:
 
-To learn more about Next.js, take a look at the following resources:
+- Your name, title, and bio
+- Skills and expertise
+- Projects and portfolio items
+- Contact information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The main styling variables are defined in `src/app/globals.css`. You can customize:
 
-## Deploy on Vercel
+- Color scheme
+- Typography
+- Spacing
+- Animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Images
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Replace the placeholder images in the `public/` directory with your own images.
+
+## Deployment
+
+This project can be easily deployed on [Vercel](https://vercel.com/) (recommended for Next.js apps):
+
+1. Push your code to a GitHub repository
+2. Import the project in Vercel
+3. Deploy!
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## 3D Visualizations
+
+This portfolio features dynamic 3D visualizations powered by Three.js:
+
+- **Hero Background** - Animated particles and flowing geometry that respond to user interaction
+- **Skills Visualization** - Interactive 3D sphere with orbiting skill icons
+- **Projects Background** - Dynamic grid of animated, colorful cubes
+- **Contact Animation** - Floating message particles that converge toward a central point
+
+Each visualization is optimized for performance and responsively adapts to different screen sizes.
