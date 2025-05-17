@@ -134,7 +134,7 @@ const Projects = () => {
           <div className="h-7"></div>
           <div className="mx-auto mt-8 text-clear flex justify-center items-center text-center" style={{ color: 'var(--primary)' }}>
             <p className="glass-card w-full max-w-2xl mx-auto text-l sm:text-l mt-8 text-clear flex justify-center items-center text-center" style={{ color: 'var(--primary)' }}>
-              Feel free to reach out for collaborations, questions, or just to say hello! I'll do my best to get back to you.
+              Feel free to reach out for collaborations, questions, or just to say hello! I&apos;ll do my best to get back to you.
             </p>
           </div>
         </motion.div>

@@ -115,7 +115,7 @@ const Contact = () => {
           <div className="h-7"></div>
           <div className="mx-auto mt-8 text-clear flex justify-center items-center text-center" style={{ color: 'var(--primary)' }}>
             <p className="glass-card w-full max-w-2xl mx-auto text-l sm:text-l mt-8 text-clear flex justify-center items-center text-center" style={{ color: 'var(--primary)' }}>
-              Feel free to reach out for collaborations, questions, or just to say hello! I'll do my best to get back to you.
+              Feel free to reach out for collaborations, questions, or just to say hello! I&apos;ll do my best to get back to you.
             </p>
           </div>
         </motion.div>
@@ -221,7 +221,7 @@ const Contact = () => {
                     animate={{ opacity: 1, y: 0 }}
                   >
                     <div className="mr-3 text-xl sm:text-lg">✓</div>
-                    <div className="text-base sm:text-sm">Your message has been sent successfully! I'll get back to you soon.</div>
+                    <div className="text-base sm:text-sm">Your message has been sent successfully! I&apos;ll get back to you soon.</div>
                   </motion.div>
                 )}
 
@@ -336,9 +336,9 @@ const Contact = () => {
           >
             <div className="h-auto sm:min-h-[300px] md:h-full rounded-2xl p-0.5">
               <div className="w-full h-full bg-gradient-to-tr from-primary via-secondary to-accent animate-gradient rounded-2xl flex flex-col items-center justify-center text-dark px-12 sm:px-6" style={{ color: 'var(--primary)' }}>
-                <h3 className="text-2xl md:text-3xl sm:text-xl font-bold mb-8 text-center text-dark text-clear">I'd Love To Hear From You</h3>
+                <h3 className="text-2xl md:text-3xl sm:text-xl font-bold mb-8 text-center text-dark text-clear">I&apos;d Love To Hear From You</h3>
                 <p className="flex text-center mb-12 max-w-md text-clear text-base sm:text-sm">
-                  Whether you have any question, want to discuss a project, or just want to say Namaste, I'm always open to new opportunities and connections.
+                  Whether you have any question, want to discuss a project, or just want to say Namaste, I&apos;m always open to new opportunities and connections.
                 </p>
                 <motion.button
                   className="btn btn-tertiary w-full sm:w-auto"
@@ -357,7 +357,7 @@ const Contact = () => {
                   Connect Now
                 </motion.button>
                 <p className="text-lg sm:text-base font-medium flex items-center text-dark mt-8">
-                  Let's create something amazing !!!!!
+                  Let&apos;s create something amazing !!!!!
                 </p>
               </div>
             </div>

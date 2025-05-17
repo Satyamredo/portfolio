@@ -80,10 +80,10 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#ff9400' }}>Technical Domain and Interests</h2>
           <div className="h-10"></div>
           <p className="glass-card text-l w-full mt-8 text-clear text-center" style={{ color: 'var(--primary)' }}>
-            I've gone through a diverse set of skills throughout my journey as a keen learner. 
+            I have gone through a diverse set of skills throughout my journey as a keen learner. 
             My technical interests span a wide spectrum, from crafting intelligent software systems 
             and exploring the frontiers of artificial intelligence to building dynamic, user-centric applications.
-            Here's a glimpse of my technical interest.
+            Here is a glimpse of my technical interest.
           </p>
         </motion.div>
 
@@ -240,9 +240,9 @@ const Skills = () => {
         
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="text-content">
-              <h3 className="text-2xl font-semibold mb-6 text-gradient">Let's Work Together!</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-gradient">Let&apos;s Work Together!</h3>
               <p className="mb-8 text-clear" style={{ color: '#ff9400' }}>
-                Looking for a developer to help with your project? I'm currently available for freelance work and collaborations. Let's create something amazing together!
+                Looking for a developer to help with your project? I&apos;m currently available for freelance work and collaborations. Let&apos;s create something amazing together!
               </p>
               <motion.button 
                 className="btn btn-tertiary"
@@ -264,7 +264,7 @@ const Skills = () => {
             <div className="relative">
               <div className="w-full h-64 rounded-xl bg-gradient-to-tr from-primary via-secondary to-accent animate-gradient flex items-center justify-center">
                 <div className="text-dark text-xl md:text-2xl font-semibold max-w-xs text-center text-clear px-8" style={{ color: '#ff9400' }}>
-                  "Quality is not an act, it is a habit." - Aristotle
+                  &quot;Quality is not an act, it is a habit.&quot; - Aristotle
                 </div>
               </div>
             </div>

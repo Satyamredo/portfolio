@@ -131,7 +131,7 @@ const About = () => {
                   </h3>
 
                   <p className="mb-2 md:mb-4 text-lg md:text-xl lg:text-2xl text-clear leading-relaxed" style={{ color: 'var(--primary)', fontFamily: 'Allura' }}>
-                    Education is not the amount of knowledge that is put into a person's mind, "Education is all about the enlightenment it brings to the mind and soul."
+                    Education is not the amount of knowledge that is put into a person&apos;s mind, Education is all about the enlightenment it brings to the mind and soul.
                   </p>
 
                   <p className="mb-2 md:mb-4 text-lg md:text-xl lg:text-2xl text-clear leading-relaxed" style={{ color: 'var(--primary)', fontFamily: 'Allura' }}>

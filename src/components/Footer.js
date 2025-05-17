@@ -45,7 +45,7 @@ const Footer = () => {
               Satyam<span className="text-accent">.</span>
             </Link>
             <p className="mb-8 max-w-md " style={{ fontFamily: 'Allura', fontSize: '1.7rem', color: 'var(--primary)' }}>
-              I'm a passionate developer focused on creating beautiful and functional software. 
+              I am a passionate developer focused on creating beautiful and functional software. 
               I combine technical skills with creative problem-solving to deliver exceptional digital experiences.
             </p>
             <div className="flex space-x-8">

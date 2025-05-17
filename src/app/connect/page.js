@@ -192,7 +192,7 @@ const ConnectPage = () => {
             <div className="w-40 h-2 rounded animate-gradient" style={{ background: 'linear-gradient(to right, var(--primary), var(--secondary))' }}></div>
           </div>
           <p className="max-w-xl mx-auto mt-12 text-clear text-center" style={{ color: 'var(--gray-700)' }}>
-            I'm always open to new opportunities, collaborations, and connections. 
+            I&apos;m always open to new opportunities, collaborations, and connections. 
             Feel free to reach out through any of the platforms below.
           </p>
         </motion.div>

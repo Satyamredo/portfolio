@@ -60,11 +60,11 @@ export default function ThreeBox() {
         emissive="#a84232"
         size={1.5}
       />
-      <Box
+      {/* <Box
         color="#50a657"
         emissive="#50a657"
         size={1.5}
-      />
+      /> */}
       <Box
         color="#140e63"
         emissive="#140e63"
