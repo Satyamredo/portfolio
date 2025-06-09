@@ -2,7 +2,7 @@
 
 A beautiful, responsive portfolio website built with Next.js and modern UI/UX principles. This portfolio template features smooth animations, responsive design, a clean modern aesthetic, and immersive 3D visualizations.
 
-![Portfolio Preview](./public/preview.png)
+![Portfolio Preview](portfolio-murex-eight-59.vercel.app)
 
 ## Features
 
