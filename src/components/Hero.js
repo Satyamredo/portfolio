@@ -44,7 +44,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Satyam Kumar Singh
+            Satyam Kunwar Singh
           </motion.h1>
           <motion.p
             className="glass-card text-xl md:text-xl mb-8 text-gradient"
@@ -53,7 +53,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.2 }}
             whileHover={{ scale: 1.04, boxShadow: "10px 10px 10px rgba(254, 98, 0, 0.8)", y: -10 }}
           >
-            Machine Learning • Deep Learning • Agentic AI •  Artificial General Intelligence • GenAI
+           Polymaths • Artificial General Intelligence
           </motion.p>
           <div className="h-50"></div>
           <motion.div

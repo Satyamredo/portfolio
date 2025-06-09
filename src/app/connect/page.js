@@ -5,7 +5,11 @@ import Footer from '../../components/Footer';
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaSnapchat, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhone, FaFacebook, FaDiscord, FaReddit, FaPinterest, FaTiktok, FaHackerrank, FaKaggle, FaArrowLeft, FaYoutube } from 'react-icons/fa';
 import { SiGmail, SiLeetcode } from 'react-icons/si';
 import Link from 'next/link';
-import ThreeBox from '/src/components/ThreeBox';
+// import ThreeBox from '/src/components/ThreeBox';
+import dynamic from 'next/dynamic';
+const ThreeBox = dynamic(() => import('../../components/ThreeBox'), {
+  ssr: false,
+});
 
 // Background is handled globally in layout.js
 

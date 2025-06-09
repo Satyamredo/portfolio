@@ -1,4 +1,10 @@
-import ThreeBox from '/src/components/ThreeBox';
+'use client';
+
+// import ThreeBox from '/src/components/ThreeBox';
+import dynamic from 'next/dynamic';
+const ThreeBox = dynamic(() => import('../../components/ThreeBox'), {
+  ssr: false,
+});
 import Footer from '../../components/Footer';
 
 

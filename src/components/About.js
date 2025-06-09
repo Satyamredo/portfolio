@@ -75,7 +75,7 @@ const About = () => {
             <div className="absolute -top-12 -left-20 md:-left-10 w-24 h-24 rounded-full bg-primary opacity-20 blur-lg"></div>
             <div className="absolute -bottom-12 -right-20 md:-right-10 w-32 h-32 rounded-full bg-secondary opacity-20 blur-lg"></div>
 
-            <div className="section-badge mb-4 backdrop-blur-sm text-sm md:text-base">About Satyam Kumar Singh</div>
+            <div className="section-badge mb-4 backdrop-blur-sm text-sm md:text-base">About Satyam Kunwar Singh</div>
           </motion.div>
 
           <div className="h-10 md:h-20"></div>
@@ -126,8 +126,7 @@ const About = () => {
                 <div className="w-full text-left">
                   <h3 className="text-base md:text-xl lg:text-2xl font-semibold mb-4 md:mb-6" style={{ color: 'var(--primary)' }}>
                     An engineer with a passion for creating software. Specialized in AI and software development that
-                    can meet your digital needs with a focus on quality, innovation, and user experience. Creating Intelligent
-                    systems require momentum of continuous quanta of thoughts.
+                    can meet your digital needs with a focus on quality, innovation, and user experience.
                   </h3>
 
                   <p className="mb-2 md:mb-4 text-lg md:text-xl lg:text-2xl text-clear leading-relaxed" style={{ color: 'var(--primary)', fontFamily: 'Allura' }}>
